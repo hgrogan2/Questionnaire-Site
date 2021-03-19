@@ -1,0 +1,179 @@
+#hBody {
+	background-color: #e5e5e5;
+	text-align: center;
+	color: white;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.saeBody {
+	background-color: #ffffff;
+	background-image: url('smallLogo.png');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 100%;
+	background-position: center;
+	text-align: center;
+	color: white;
+	font-family: Arial, Helvetica, sans-serif;
+}
+body {
+	background-color: #ffffff;
+	text-align: center;
+	color: white;
+	font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+	color: black;
+	font-size: 23px;
+	font-weight: bold;
+}
+#startingWords { 
+	color: black;
+	font-size: 27px;
+	margin-top: 34%;
+	font-weight: bold;
+	opacity: 0.5;
+}
+#endingWords { 
+	color: black;
+	font-size: 27px;
+	margin-top: 30%;
+	font-weight: bold;
+	opacity: 0.5;
+}
+#logo {
+	background-color: white;
+	margin: 10px;
+}
+#question {
+	font-weight: bold;
+}
+p { 
+	color: black;
+	font-size: 10px;
+}
+textarea {
+	width: 95%;
+}
+.tfTable{
+	padding-top: 80px;
+	font-size: 12px;
+	color: black;
+}
+.tfa {
+	padding-left: 15px;
+	padding-bottom: 80px;
+}
+.lTable {
+	font-size: 10px;
+	color: black;
+}
+th {
+	padding-left: 35px;
+	padding-top: 10px;
+	padding-bottom: 35px;
+}
+.la {
+	padding-left: 35px;
+	padding-bottom: 35px;
+}
+.mcTable {
+	font-size: 12px;
+	color: black;
+	padding-top: 40px;
+}
+.mca {
+	padding-bottom: 40px;
+	padding-left: 15px;
+}
+#next {
+	background-color: #0072dc;
+	color: white;
+	font-size: 15px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 35px;
+	padding-right: 35px;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+#previous {
+	background-color: #ffffff;
+	color: black;
+	font-size: 15px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 20px;
+	padding-right: 20px;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	margin-left: 10px;
+	margin-bottom: 10px;
+}
+#create {
+	background-color: #0072dc;
+	color: white;
+	font-size: 20px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 50px;
+	padding-right: 50px;
+	float: left;
+	margin-left: 75px;
+	margin-top: 20px;
+}
+#edit {
+	background-color: #00dc16;
+	color: white;
+	font-size: 20px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 60px;
+	padding-right: 60px;
+	float: right;
+	margin-right: 75px;
+	margin-top: 20px;
+}
+#view {
+	background-color: #ffffff;
+	color: black;
+	font-size: 20px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 60px;
+	padding-right: 60px;
+	position: absolute;
+	bottom: 20%;
+	left: 35%;
+}
+#start {
+	background-color: #0072dc;
+	color: white;
+	font-size: 15px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 30px;
+	padding-right: 30px;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+#finish {
+	background-color: #0072dc;
+	color: white;
+	font-size: 15px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 30px;
+	padding-right: 30px;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
