@@ -1,6 +1,6 @@
 -- Script Date: 3/17/2021 6:06 PM  - ErikEJ.SqlCeScripting version 3.5.2.86
 CREATE TABLE Users (
-userID varchar(9) PRIMARY KEY NOT NULL,
+UserID varchar(9) PRIMARY KEY NOT NULL,
 FirstName varchar(50) NOT NULL,
 LastName varchar(50) NOT NULL,
 City varchar(100) NOT NULL,
@@ -9,21 +9,24 @@ ZipCode  varchar(5) NOT NULL,
 Email varchar(100) NULL,
 CellPhone varchar(11) NULL,
 HomePhone varchar(11) NULL,
-isAdmin BIT
+IsAdmin BIT
 );
 
 CREATE TABLE Questions (
-questions varchar(255) Primary Key NOT NULL
+Questions varchar(255) Primary Key NOT NULL,
+QuestionID varchar(7) NOT NULL
 );
 
-CREATE TABLE User_Answers (
-userID varchar(9),
-questions varchar(255),
-answers varchar(255),
-CONSTRAINT FK_user FOREIGN KEY (userID)
-REFERENCES Users(userID)
-CONSTRAINT FK_question FOREIGN KEY (questions)
-REFERENCES Questions(questions)
+CREATE TABLE UserAnswers (
+UserID varchar(9),
+QuestionID varchar(7),
+Questions varchar(255),
+Answers varchar(255),
+Email varchar(255),
+CONSTRAINT FK_user FOREIGN KEY (UserID)
+REFERENCES Users(UserID)
+CONSTRAINT FK_question FOREIGN KEY (Questions)
+REFERENCES Questions(Questions)
 );
 
 INSERT INTO Users (userID, FirstName, LastName, City, State, ZipCode, Email, CellPhone, HomePhone)
