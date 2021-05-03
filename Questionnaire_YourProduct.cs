@@ -1,7 +1,17 @@
-﻿using System;
+﻿
 
-public class YourProduct : ApiController
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Logging;
+
+namespace TestAPI.Controllers
 {
+	 [ApiController]
+    [Route("/username/password")]
+
     List<Model.Product> products = new List<Model.Product>();
     public int Id { get; set; }
     [HttpGet]
@@ -37,4 +47,6 @@ public class YourProduct : ApiController
         products.Remove(product);
         products.SaveChanges();
     }
-}
+  
+    }
+    
