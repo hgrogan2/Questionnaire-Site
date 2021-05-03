@@ -13,8 +13,8 @@ IsAdmin BIT
 );
 
 CREATE TABLE Questions (
-Questions varchar(255) Primary Key NOT NULL,
-QuestionID varchar(7) NOT NULL
+Questions varchar(255) NOT NULL,
+QuestionID varchar(7) Primary Key NOT NULL
 );
 
 CREATE TABLE UserAnswers (
