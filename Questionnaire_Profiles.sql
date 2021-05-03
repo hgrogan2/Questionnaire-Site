@@ -14,7 +14,8 @@ IsAdmin BIT
 
 CREATE TABLE Questions (
 Questions varchar(255) NOT NULL,
-QuestionID varchar(7) Primary Key NOT NULL
+QuestionID varchar(7) Primary Key NOT NULL,
+QuestionType varchar(50) NOT NULL
 );
 
 CREATE TABLE UserAnswers (
